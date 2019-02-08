@@ -1,0 +1,14 @@
+{
+  "name": "notify",
+  "version": "1.0.0",
+  "description": "Notify when commands are finished",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "true"
+  },
+  "author": "Francis John",
+  "license": "UNLICENSED"
+}
