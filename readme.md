@@ -1,6 +1,6 @@
 # `notify-command`
 
-Tired of waiting on slow CLI commands to finish like `npm install`, `webpack`, etc? This tool is here too help by setting up with a notification when slow commands finish.
+Tired of waiting on slow CLI commands to finish like `npm install`, `webpack`, etc? This tool is here to help by setting up with a notification when slow commands finish.
 
 You can manually specify the command you want to be notified about on the command line, but I recommend using an alias in your shell config file to automatically notify you by default.
 
