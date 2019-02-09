@@ -21,7 +21,7 @@ foo@bar:~$ notify sleep 5
 I recommend you use an `alias` for things that generally take a long time, such as `npm`, such that all `npm` commands now trigger a notification automatically
 
 Example `.zshrc`:
-```
+```sh
 # Check whether the `notify` command exists
 [ -x "$(command -v notify)" ] && alias npm="notify npm"
 ```
