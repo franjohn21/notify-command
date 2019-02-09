@@ -2,7 +2,7 @@
 const cp = require('child_process');
 const path = require('path');
 const notifier = require('node-notifier');
-const MAX_TITLE_LENGTH = 35;
+const MAX_TITLE_LENGTH = 25;
 
 const cmd = process.argv[2];
 const args = process.argv.slice(3);
