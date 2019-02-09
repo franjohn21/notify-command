@@ -22,7 +22,8 @@ I recommend you use an `alias` for things that generally take a long time, such 
 
 Example `.zshrc`:
 ```
-alias npm="notify npm"
+# Check whether the `notify` command exists
+[ -x "$(command -v notify)" ] && alias npm="notify npm"
 ```
 
 ```console
