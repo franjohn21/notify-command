@@ -1,5 +1,5 @@
 {
-  "name": "notify",
+  "name": "notify-command",
   "version": "1.0.0",
   "description": "Notify when commands are finished",
   "main": "index.js",
@@ -9,6 +9,12 @@
   "scripts": {
     "test": "true"
   },
+  "bin": {
+    "notify": "index.js"
+  },
   "author": "Francis John",
-  "license": "UNLICENSED"
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "^5.4.0"
+  }
 }
