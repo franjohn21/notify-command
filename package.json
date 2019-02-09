@@ -6,6 +6,15 @@
   "directories": {
     "test": "test"
   },
+  "keywords": [
+    "cli",
+    "notify",
+    "notification",
+    "slow command",
+    "npm install",
+    "productivity",
+    "webpack"
+  ],
   "scripts": {
     "test": "true"
   },
