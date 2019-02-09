@@ -24,7 +24,7 @@ Array.from(args).some(arg => {
 
 notifier.notify({
   title: `'${commandTitle}' finished${status !== 0 ? ' unsuccessfully' : ''}`,
-  message: `Took: ${timeInSeconds}s in ${process.cwd()}`,
+  message: `Took ${timeInSeconds}s in ${process.cwd()}`,
   icon: path.join(__dirname, status === 0 ? 'checkmark.png' : 'x-icon.png'),
 });
 
