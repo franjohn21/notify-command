@@ -1,3 +1,5 @@
+EDIT: [ntfy](https://github.com/dschep/ntfy) is a much more robust tool that covers the same functionality.
+
 # `notify-command`
 
 Tired of waiting on slow CLI commands to finish like `npm install`, `webpack`, etc? This tool is here to help by sending a notification when slow commands finish.
